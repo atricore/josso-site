@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>var _sf_startpt = (new Date()).getTime()</script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width">
+    <title>JOSSO</title>
+    <meta name="keywords"
+          content="">
+    <meta name="description"
+          content="">
+    <meta property="og:locale" content="en-us">
+    <meta property="og:title" content="JOSSO">
+    <meta property="og:description"
+          content="">
+    <meta property="og:url" content="http://josso.org^current_url^">
+    <meta property="og:site_name" content="JOSSO">
+    <meta property="og:type" content="article">
+    <link href="http://fonts.googleapis.com/css?family=Roboto:100,300,300italic,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="{{assets}}/css/josso.css">
+    <link rel="stylesheet" href="{{assets}}/css/github.css">
+    <link rel="stylesheet" href="{{assets}}/css/prism.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+<header role="banner" class="docs-header">
+    <div class="container">
+        <button type="button" data-toggle="collapse" data-target=".docs-nav__collapse"
+                class="navbar-toggle navbar-toggle-menu"><span class="sr-only"></span><span
+                class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+        <a title="JOSSO" class="josso-logo"><img src="{{assets}}/images/atricore-logo.png" alt="JOSSO" width="207"
+                                                 height="70"></a>
+        {{> navbar }}
+    </div>
+</header>
+
+<div class="page-header">
+    <div class="container">
+        <h1>{{section}}</h1>
+
+        <p class="lead">{{section}} Section.</p>
+    </div>
+</div>
+
+<!-- Subhead
+==============================================
+<header class="masthead subhead">
+    <div class="container">
+        <div class="row">
+            <div class="col col-lg-12">
+                <h1><span class="text-muted">Docs /</span> {{#if section}}{{ section }} {{else}} Markdown {{/if}}</h1>
+            </div>
+        </div>
+    </div>
+</header>
+ -->
+
+
+<div class="docs-body">
+
+    <!-- Page content
+    ============================================== -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                {{> sidenav }}
+            </div>
+            <div class="col-sm-9">
+                <div class="docs-content">
+                    {{> body }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="docs-footer">
+    <div class="container">
+        <p>
+            Created by <a href="http://atricore.com" target="_blank">Atricore Inc.</a>
+        </p>
+        <ul class="list-inline">
+            <li>
+                <a href="getting-started" title="JOSSO Getting Started">Getting Started</a>
+            </li>
+            <li>
+                <a href="docs" title="JOSSO Documentation">Documentation</a>
+            </li>
+            <li>
+                <a href="https://groups.google.com/forum/#!forum/JOSSO" target="_blank"
+                   title="JOSSO Google Group">Google Group</a>
+            </li>
+            <li>
+                <a href="https://github.com/atricore/josso2" target="_blank" title="Github Project (new window)">Github
+                Project</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="docs-footer-floor">
+    <div class="container">
+        <div class="social-buttons">
+            <div class="social-button social-button__twitter"><a href="https://twitter.com/josso"
+                                                                 data-show-count="true" class="twitter-follow-button">Follow
+                @JOSSO</a></div>
+            <div class="social-button social-button__github">
+                <iframe src="http://ghbtns.com/github-btn.html?user=JOSSO&amp;repo=josso2&amp;type=watch&amp;count=true"
+                        allowtransparency="true" frameborder="0" scrolling="0" width="86" height="20"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="{{assets}}/js/highlight.js"></script>
+<script src="{{assets}}/js/jquery/jquery-1.10.2.min.js"></script>
+<script src="{{assets}}/js/bootstrap/collapse.js"></script>
+<script src="{{assets}}/js/prism/prism.min.js"></script>
+<script src="{{assets}}/js/anchor-links.js"></script>
+<script>!function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+    if (!d.getElementById(id)) {
+        js = d.createElement(s);
+        js.id = id;
+        js.src = p + '://platform.twitter.com/widgets.js';
+        fjs.parentNode.insertBefore(js, fjs);
+    }
+}(document, 'script', 'twitter-wjs');
+</script>
+<script>if (window.location.hostname.match(/JOSSO\.com/)) {
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-43970386-1', 'JOSSO.com');
+    ga('send', 'pageview');
+}
+</script>
+<script>if (window.location.hostname.match(/josso\.org/)) {
+    var _sf_async_config = {uid: 46610, domain: 'josso.org', useCanonical: true};
+    (function () {
+        function loadChartbeat() {
+            window._sf_endpt = (new Date()).getTime();
+            var e = document.createElement('script');
+            e.setAttribute('language', 'javascript');
+            e.setAttribute('type', 'text/javascript');
+            e.setAttribute('src', '//static.chartbeat.com/js/chartbeat.js');
+            document.body.appendChild(e);
+        };
+        var oldonload = window.onload;
+        window.onload = (typeof window.onload != 'function') ?
+                loadChartbeat : function () {
+            oldonload();
+            loadChartbeat();
+        };
+    })();
+}
+</script>
+<script>if (window.location.hostname.match(/josso\.org/)) {
+    setTimeout(function () {
+        var a = document.createElement("script");
+        var b = document.getElementsByTagName("script")[0];
+        a.src = document.location.protocol + "//dnn506yrbagrg.cloudfront.net/pages/scripts/0013/3329.js?" + Math.floor(new Date().getTime() / 3600000);
+        a.async = true;
+        a.type = "text/javascript";
+        b.parentNode.insertBefore(a, b)
+    }, 1);
+}</script>
+</body>
+</html>
