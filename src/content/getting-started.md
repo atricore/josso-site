@@ -5,7 +5,7 @@ section: Getting Started
 
 ## Introduction
 
-JOSSO is an open source Identity and Access Management (IAM) platform for rapid and standards-based
+JOSSO is an Open Source Identity and Access Management (IAM) platform for rapid and standards-based
 Cloud-scale Single Sign-On, web services security, strong authentication and provisioning. 
 
 ## Agile IAM   
