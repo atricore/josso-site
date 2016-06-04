@@ -81,6 +81,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-connect');
 
   // Default tasks to be run.
-  grunt.registerTask('default', ['less', 'assemble', 'copy']);
+  grunt.registerTask('default', ['less', 'assemble', 'copy', 'connect']);
 };
 
