@@ -6,14 +6,14 @@
     <meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width">
     <title>JOSSO</title>
     <meta name="keywords"
-          content="node.js,nodejs,cms,publishing,platform,web,development,framework,express,mongo,mongodb,bootstrap,react,jquery">
+          content="single sign-on,iam,identity and access,saml,oauth,openid,wsfed,fido,spml,scim,cloud sso,wam,idm">
     <meta name="description"
-          content="Get a head-start on the features you need. JOSSO is the easiest way to build dynamic websites, applications and APIs with Node.js and MongoDB.">
+          content="JOSSO is the easiest way to rollout Identity and Access .">
     <meta property="og:locale" content="en-us">
     <meta property="og:title" content="JOSSO">
     <meta property="og:description"
-          content="JOSSO is an open source Node.js CMS and web application platform built on Express and MongoDB.">
-    <meta property="og:url" content="https://JOSSO.com^current_url^">
+          content="JOSSO is an open source platform for identity and access.">
+    <meta property="og:url" content="http://josso.org^current_url^">
     <meta property="og:site_name" content="JOSSO">
     <meta property="og:type" content="article">
     <link href="http://fonts.googleapis.com/css?family=Roboto:100,300,300italic,400,500,700" rel="stylesheet">
@@ -41,19 +41,6 @@
     </div>
 </div>
 
-<!-- Subhead
-==============================================
-<header class="masthead subhead">
-    <div class="container">
-        <div class="row">
-            <div class="col col-lg-12">
-                <h1><span class="text-muted">Docs /</span> {{#if section}}{{ section }} {{else}} Markdown {{/if}}</h1>
-            </div>
-        </div>
-    </div>
-</header>
- -->
-
 
 <div class="docs-body">
 
@@ -79,22 +66,21 @@
 <div class="docs-footer">
     <div class="container">
         <p>
-            Created by <a href="http://atricore.com" target="_blank">Atricore Inc.</a>
+            Created by <a href="http://www.atricore.com" target="_blank">Atricore Inc.</a>
         </p>
         <ul class="list-inline">
             <li>
-                <a href="getting-started" title="JOSSO Getting Started">Getting Started</a>
+                <a href="getting-started.html" target="_blank" title="Getting Started">Getting Started</a>
             </li>
             <li>
-                <a href="docs" title="JOSSO Documentation">Documentation</a>
+                <a href="http://docs.atricore.com/josso2/2.4.0/josso-reference-guide/html/en-US/JOSSO_Reference.html"
+                   title="JOSSO Documentation">Documentation
+                </a>
             </li>
             <li>
-                <a href="https://groups.google.com/forum/#!forum/JOSSO" target="_blank"
-                   title="JOSSO Google Group">Google Group</a>
-            </li>
-            <li>
-                <a href="https://github.com/atricore/josso2" target="_blank" title="Github Project (new window)">Github
-                    Project</a>
+                <a href="https://github.com/atricore" target="_blank" title="Github Project (new window)">Github
+                    Project
+                </a>
             </li>
         </ul>
     </div>
@@ -127,7 +113,7 @@
     }
 }(document, 'script', 'twitter-wjs');
 </script>
-<script>if (window.location.hostname.match(/JOSSO\.com/)) {
+<script>if (window.location.hostname.match(/josso\.org/)) {
     (function (i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r;
         i[r] = i[r] || function () {
@@ -140,39 +126,9 @@
         m.parentNode.insertBefore(a, m)
     })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-    ga('create', 'UA-43970386-1', 'JOSSO.com');
+    ga('create', 'UA-1445587-1', 'josso.com');
     ga('send', 'pageview');
 }
 </script>
-<script>if (window.location.hostname.match(/JOSSO\.com/)) {
-    var _sf_async_config = {uid: 46610, domain: 'JOSSO.com', useCanonical: true};
-    (function () {
-        function loadChartbeat() {
-            window._sf_endpt = (new Date()).getTime();
-            var e = document.createElement('script');
-            e.setAttribute('language', 'javascript');
-            e.setAttribute('type', 'text/javascript');
-            e.setAttribute('src', '//static.chartbeat.com/js/chartbeat.js');
-            document.body.appendChild(e);
-        };
-        var oldonload = window.onload;
-        window.onload = (typeof window.onload != 'function') ?
-                loadChartbeat : function () {
-            oldonload();
-            loadChartbeat();
-        };
-    })();
-}
-</script>
-<script>if (window.location.hostname.match(/JOSSO\.com/)) {
-    setTimeout(function () {
-        var a = document.createElement("script");
-        var b = document.getElementsByTagName("script")[0];
-        a.src = document.location.protocol + "//dnn506yrbagrg.cloudfront.net/pages/scripts/0013/3329.js?" + Math.floor(new Date().getTime() / 3600000);
-        a.async = true;
-        a.type = "text/javascript";
-        b.parentNode.insertBefore(a, b)
-    }, 1);
-}</script>
 </body>
 </html>

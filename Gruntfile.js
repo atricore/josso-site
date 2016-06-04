@@ -5,21 +5,6 @@ module.exports = function(grunt) {
   // Project configuration.
   grunt.initConfig({
 
-    asciidoctor: {
-      default_options: {
-        options: {
-          cwd: 'src/content',
-		  //showTitle: false,			// overridden when header_footer: true
-		  header_footer: false,		// do not want this for this project, using our own template.		  
-		  icons: 'font' 				// this doesn't work. Unsure how to render icons with this.
-        },
-        files: {
-          // Mostly supports markdown files too
-          'dest/asciidoctor': ['src/**/*.adoc']
-        }
-      }
-    },
-	
     assemble: {
       options: {
         flatten: true,
@@ -28,7 +13,7 @@ module.exports = function(grunt) {
         layoutdir: 'src/templates/layouts',
         partials: ['src/templates/partials/*.hbs', './*.md']
       },
-      html2: {
+      html: {
         options: {
           ext: '.html',
           engine: 'handlebars',
@@ -89,14 +74,13 @@ module.exports = function(grunt) {
   });
 
   // Load npm plugins to provide necessary tasks.
-  grunt.loadNpmTasks('assemble');
   grunt.loadNpmTasks('assemble-less');
+  grunt.loadNpmTasks('grunt-assemble');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-connect');
-  grunt.loadNpmTasks('grunt-asciidoctor');
 
   // Default tasks to be run.
-  grunt.registerTask('default', ['less', 'asciidoctor', 'assemble', 'copy']);
+  grunt.registerTask('default', ['less', 'assemble', 'copy']);
 };
 

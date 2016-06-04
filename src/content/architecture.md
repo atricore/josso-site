@@ -78,3 +78,9 @@ Example Identity Capabilities include SAML2, OpenID Connect, Integrated Windows 
 
 You're free to extend JOSSO by implementing your own IAM Capabilities.
 
+## Knowing more
+
+If you want to know more about how the inner workings of the Atricore platform on top JOSSO is built you can skim
+through the source code on Github: http://github.com/atricore
+
+

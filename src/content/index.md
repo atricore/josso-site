@@ -40,7 +40,5 @@ the [Getting Started](getting-started.html) page.
 In order to get more familiar with the solution you may want to delve into the detailed JOSSO documentation here 
 [here](getting-started.html) .
 
-## Release History
-TBD
 
 

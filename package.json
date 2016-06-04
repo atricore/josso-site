@@ -1,32 +1,36 @@
 {
   "name": "jossoorg-site",
-  "description": "Use Assemble to generate HTML pages from markdown content. Useful for wikis, gh-pages, documentation and blogs or sites with markdown posts.",
+  "description": "josso.org website",
   "version": "0.1.0",
-  "homepage": "https://github.com/assemble/assemble-examples-markdown/",
+  "homepage": "https://github.com/atricore/josso-site/",
   "author": {
-    "name": "Assemble"
+    "name": "Atricore Inc."
   },
   "contributors": [
     {
-      "name": "Jon Schlinkert",
-      "url": "https://github.com/jonschlinkert"
+      "name": "Karen Lehmann",
+      "url": "https://github.com/karenlehmann"
     },
     {
-      "name": "Brian Woodward",
-      "url": "https://github.com/doowb"
+      "name": "Gianluca Brigandi",
+      "url": "https://github.com/gbrigand"
+    },
+    {
+      "name": "Sebastian Gonzalez Oyuela",
+      "url": "https://github.com/sgonzalezoyuela"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/assemble/assemble-examples-markdown.git"
+    "url": "git://github.com/atricore/josso-site.git"
   },
   "bugs": {
-    "url": "https://github.com/assemble/assemble-examples-markdown/issues"
+    "url": "https://github.com/atricore/josso-site/issues"
   },
   "licenses": [
     {
-      "type": "MIT",
-      "url": "https://github.com/assemble/assemble-examples-markdown/blob/master/LICENSE-MIT"
+      "type": "Apache",
+      "url": "https://github.com/atricore/josso-site/blob/master/LICENSE"
     }
   ],
   "main": "Gruntfile.js",
@@ -34,27 +38,20 @@
     "test": "grunt assemble"
   },
   "dependencies": {
-    "assemble": "~0.4.0",
-    "assemble-less": "~0.6.1",
-    "grunt": "~0.4.1",
-    "grunt-asciidoctor": "^0.2.1",
+    "assemble": "^0.12.0",
+    "assemble-less": "^0.7.0",
+    "grunt": "^0.4.1",
+    "grunt-assemble": "^0.4.0",
     "grunt-contrib-clean": "~0.4.1",
     "grunt-contrib-connect": "~0.10.1",
     "grunt-contrib-copy": "~0.4.1"
   },
   "keywords": [
-    "markdown",
-    "markdown to html",
-    "jekyll alternative",
-    "jekyll node.js",
-    "content",
-    "assemble",
-    "build",
-    "site generator",
-    "component generator",
-    "blog generator",
-    "handlebars",
-    "templates"
+    "josso",
+    "java open single sign-on",
+    "atricore",
+    "single sign-on",
+    "identity and access"
   ],
   "devDependencies": {}
 }

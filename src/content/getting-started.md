@@ -203,7 +203,5 @@ authenticating a second time.
 
 ![Partner application two access](assets/images/atricore-console-10.png)
 
-## What's next
 
-TBD
 
