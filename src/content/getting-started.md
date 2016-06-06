@@ -41,7 +41,7 @@ containers all live in separate containers. This also provides the flexibility o
 components such as a directory server or an application server, by just pulling and running the corresponding 
 docker container.
  
-Finally, docker compose is used for orchestrating containers, namely how containers are launched and their
+Finally, Docker Compose is used for orchestrating containers, namely how containers are launched and their
 configuration.
 
 ### Foreword about Vagrant and Docker
