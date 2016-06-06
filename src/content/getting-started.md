@@ -50,7 +50,7 @@ Vagrant is a multi-platform command line tool for creating lightweight, reproduc
 Vagrant acts as a glue layer between different virtualization solutions (software, hardware PaaS and IaaS) and
 different configuration management utilities (Puppet, Chef, etc.). 
 
-Docker is a an open source framework for developing, distributing and deploying so called Containers, middle ground
+Docker is an open source framework for developing, distributing and deploying so called Containers, middle ground
 between virtual machines and process.
 
 It allows processes to be running on the same kernel as system processes, yet it uses separate runtime
