@@ -7,10 +7,10 @@ section: Architecture
 
 JOSSO is a solution based on the Atricore IAM (Identity and Access Management) Platform, also known as the Atricore
 Identity Bus. Technically, JOSSO is  just a distribution of the Atricore IAM Platform, in the same way Fedora or Ubuntu
-are distributions of the Linux operating system. Therefore, this allows to deliver alternative products
+are distributions of the Linux operating system. This allows us to deliver alternative products,
 potentially addressing alternative use-cases within the IAM space.
 
-Much or this flexibility lies on the OSGi foundation the solution is based on. All platform components are OSGi bundles,
+Much of this flexibility depends on the OSGi foundation on which the solution is based. All platform components are OSGi bundles,
 a common and standards-based interface for describing platform modules. For instance JOSSO spans to around 200
 OSGi bundles. Even the core is a bundle. Different set of features are enabled based on on the bundles
 you choose to use.
@@ -28,7 +28,7 @@ reduce the integration effort.
 
 ### Identity Appliance
 
-IAM solutions are known within JOSSO as 'Identity Appliances'. An Identity Appliance is an artifact which
+IAM solutions are known within JOSSO as 'Identity Appliances'. An identity appliance is an artifact which
 encompasses the definitions necessary to instantiate Internet SSO services, in order to realize a specific identity
 architecture.
 
@@ -78,9 +78,9 @@ Example Identity Capabilities include SAML2, OpenID Connect, Integrated Windows 
 
 You're free to extend JOSSO by implementing your own IAM Capabilities.
 
-## Knowing more
+## More Information
 
-If you want to know more about how the inner workings of the Atricore platform on top JOSSO is built you can skim
+If you want to know more about how the inner workings of the Atricore platform on top of which JOSSO is built, you can skim
 through the source code on Github: http://github.com/atricore
 
 
