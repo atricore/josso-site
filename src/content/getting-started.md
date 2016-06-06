@@ -57,10 +57,10 @@ It allows processes to be running on the same kernel as system processes, yet it
 (include basic things like libc). It basically allows you to run centos on ubuntu or (via Virtual Box) on your
 Mac and Windows installation.
 
-These pages show how to take advantage of both vagrant and docker sandboxing capabilities to do a number of
+These pages show how to take advantage of both Vagrant and Docker sandboxing capabilities to do a number of
 JOSSO related tasks, including installation and testing basic features.
 
-These instructions are not meant to be a full blown vagrant nor docker guide. For that, we recommend looking at the
+These instructions are not meant to be a full-blown guide to Vagrant or Docker. For that, we recommend looking at the
 official documentation on the corresponding websites.
    
 ### Install Vagrant
