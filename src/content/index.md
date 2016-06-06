@@ -10,7 +10,7 @@ Founded in 2004, it is used by around 4,000 organizations worldwide.**
 ## Main Features
 
 * Advanced Administration console — Fully visual configuration, rollout and management
-* Robust Identity and Access Management — A standards compliant stack that supports a wide range of features		
+* Robust Identity and Access Management — A standards-compliant stack that supports a wide range of features		
 * Single Sign-On — Simple combined Web and Cloud Single Sign-On		
 * Rigorously tested and certified against multiple OS, Database and application servers		
 * Clustering for high availability and scalability		
@@ -21,7 +21,7 @@ Founded in 2004, it is used by around 4,000 organizations worldwide.**
 * Multi-tenant and White Labeling ready for enabling wholesale business models		
 * Social SSO — Honors social identities from Google, Twitter, Facebook and LinkedIn
 * Support for SAML, OpenID, OpenID Connect, OAuth, WS-Federation support for seamless Cloud/Federated SSO experience
-* Integrates with virtually most commonly used stacks such as JavaEE, LAMP and MEAN stacks
+* Integrates with most commonly used stacks such as JavaEE, LAMP and MEAN stacks
 * Multi-factor authentication support
 * Windows interoperability - plays nice with Active Directory for native single sign-on
 * Supports LDAP-compliant and JDBC-accessible identity repositories
