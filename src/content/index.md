@@ -3,9 +3,9 @@ title: About JOSSO
 section: Simplified Identity and Access 
 ---
 
-**JOSSO is an open source Identity and Access Management solution focused on streamlining implementations through a 
+**JOSSO is an open source identity and access management solution focused on streamlining implementations through a 
 visual modeling and generative approach.
-Founded in the 2004 is used by around 4,000 organizations worldwide.**
+Founded in 2004, it is used by around 4,000 organizations worldwide.**
 
 ## Main Features
 
@@ -33,8 +33,8 @@ Founded in the 2004 is used by around 4,000 organizations worldwide.**
 
 ## Getting up and running quickly
 
-The easiest way to kick the tires is by using our pre-built vagrant-based 'JOSSO Playground' which hosts everything you
-need for rolling out a fullly functional environment along all the required pieces. For more information please see
+The easiest way to try it out is by using our pre-built Vagrant-based 'JOSSO Playground' which hosts everything you
+need to roll out a fully functional environment, along with all the required pieces. For more information please see
 the [Getting Started](getting-started.html) page.
  
 In order to get more familiar with the solution you may want to delve into the detailed JOSSO documentation here 
