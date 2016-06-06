@@ -62,7 +62,7 @@ In the simplest case, installing JOSSO should be a matter of running one command
 
       $ docker run -d --name josso atricore/josso:josso-ce-2.4.1
       
-This start a new JOSSO CE container in the background.
+This will start a new JOSSO CE container in the background.
 
 Please bear in mind that the default JOSSO container is INAPPROPRIATE FOR PRODUCTION USE.
 
@@ -80,18 +80,18 @@ the logs:
   
     docker logs 01ef0aec7244  
     
-Or stopping the container :
+Or stopping the container:
 
     docker stop 01ef0aec7244 
 
 ### Customizing the Docker image
 
-You may well find you want to customize your JOSSO installation, either by setting custom configuration options not
+You may well find that you want to customize your JOSSO installation, either by setting custom configuration options not
 exposed by the Docker image, or by installing additional extensions. A full guide to extending Docker images is
-out-of-scope of this installation documentation, but you can use the functionality provided by docker build to extend
+out of the scope of this installation documentation, but you can use the functionality provided by docker build to extend
 the default image: http://docs.docker.com/reference/builder/.
 
-As an example you can build on the default Dockerfile for JOSSO CE 2.4.1 :
+As an example you can build on the default Dockerfile for JOSSO CE 2.4.1:
 
     FROM atricore/josso:oracle-java8
     
@@ -116,4 +116,4 @@ As an example you can build on the default Dockerfile for JOSSO CE 2.4.1 :
     
     CMD /opt/atricore/josso-ce-2.4.1/bin/atricore
     
-You may want to explore the Git project used to build docker images : https://github.com/atricore/atricore-josso-playground
+You may want to explore the Git project used to build docker images: https://github.com/atricore/atricore-josso-playground
