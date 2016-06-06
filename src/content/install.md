@@ -15,7 +15,7 @@ Alternatively, you may want to install JOSSO in a more isolated fashion, so that
 ### Prerequisites
 
 Make sure you have Java Runtime Environment (JRE) 8 or newer installed before executing the self-extracting installer.
-The Java Runtime Environment can be downloaded from : http://www.java.com/getjava
+The Java Runtime Environment can be downloaded from: http://www.java.com/getjava
 
 ### Download  
 
@@ -23,7 +23,7 @@ The first step is to download the JOSSO distribution.
 
 To download the latest JOSSO Community Edition release, go to: https://sourceforge.net/projects/josso/files/latest/download?source=files
 
-To request a trial version of the JOSSO Enterprise Edition, use this link : http://www.atricore.com/get-started .
+To request a trial version of the JOSSO Enterprise Edition, use this link: http://www.atricore.com/get-started .
 Follow the instructions to enable your JOSSO Enterprise Edition installation.
 
 ### Install and Launch
@@ -37,7 +37,7 @@ http://jossoserver:8081/atricore-console . You should be able to access the serv
 
 Next, sign in using the default credentials: 'admin' as the username and 'atricore' as the password.
 
-The reference documentation for JOSSO can be found at this location :
+The reference documentation for JOSSO can be found at this location:
 http://docs.atricore.com/josso2/2.4/josso-reference-guide/html/en-US/JOSSO_Reference.html
 
 ## Docker Install
