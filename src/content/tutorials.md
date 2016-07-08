@@ -5,9 +5,9 @@ section: Tutorials
 
 ## Overview
 
-The following are several video tutorials for exploring some of the possibilities of JOSSO. 
+Explore what you can do with JOSSO with these video tutorials. 
 
-### Rollout simple Web Single Sign-On setting
+### Roll Out a Simple Web Single Sign-On Setting
  
 Internet SSO setup using Atricore's JOSSO 2 and the Atricore visual modelling console. This tutorial demonstrates a
 quick, easy internet SSO configuration with one identity provider and two service providers. 
