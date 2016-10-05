@@ -60,7 +60,7 @@ installing Docker from the Docker documentation.
 
 In the simplest case, installing JOSSO should be a matter of running one command.
 
-      $ docker run -d --name josso atricore/josso:josso-ce-2.4.1
+      $ docker run -d --name josso atricore/josso:josso-ce-2.4.2
       
 This will start a new JOSSO CE container in the background.
 
@@ -73,7 +73,7 @@ If all goes well you should now have a JOSSO instance running. You can use docke
 started. You should see something like the following:
 
     CONTAINER ID        IMAGE                           COMMAND                  CREATED             STATUS              PORTS                                                                     NAMES
-    01ef0aec7244        atricore/josso:josso-ce-2.4.1   "/bin/sh -c /opt/atri"   2 seconds ago       Up 2 seconds        1099/tcp, 1527/tcp, 8081/tcp, 8101/tcp, 41041/tcp, 44444/tcp, 52416/tcp   josso
+    01ef0aec7244        atricore/josso:josso-ce-2.4.2   "/bin/sh -c /opt/atri"   2 seconds ago       Up 2 seconds        1099/tcp, 1527/tcp, 8081/tcp, 8101/tcp, 41041/tcp, 44444/tcp, 52416/tcp   josso
 
 Using the JOSSO container id (here it’s 01ef0aec7244), you can perform other actions on your container, such as viewing
 the logs:  
@@ -91,15 +91,15 @@ exposed by the Docker image, or by installing additional extensions. A full guid
 out of the scope of this installation documentation, but you can use the functionality provided by docker build to extend
 the default image: http://docs.docker.com/reference/builder/.
 
-As an example you can build on the default Dockerfile for JOSSO CE 2.4.1:
+As an example you can build on the default Dockerfile for JOSSO CE 2.4.2:
 
     FROM atricore/josso:oracle-java8
     
-    ADD josso-ce-2.4.1.options /tmp/
+    ADD josso-ce-2.4.2.options /tmp/
     
-    RUN wget --quiet --no-cookies --no-check-certificate http://sourceforge.net/projects/josso/files/JOSSO%202/JOSSO-2.4.1/josso-ce-2.4.1-unix.jar -O /tmp/josso-ce-2.4.1-unix.jar
+    RUN wget --quiet --no-cookies --no-check-certificate http://sourceforge.net/projects/josso/files/JOSSO%202/JOSSO-2.4.2/josso-ce-2.4.2-unix.jar -O /tmp/josso-ce-2.4.2-unix.jar
     
-    RUN java -jar /tmp/josso-ce-2.4.1-unix.jar -options /tmp/josso-ce-2.4.1.options
+    RUN java -jar /tmp/josso-ce-2.4.2-unix.jar -options /tmp/josso-ce-2.4.2.options
     
     EXPOSE 1099
     EXPOSE 1527
@@ -109,11 +109,11 @@ As an example you can build on the default Dockerfile for JOSSO CE 2.4.1:
     EXPOSE 44444
     EXPOSE 52416
     
-    RUN chmod 700 /opt/atricore/josso-ce-2.4.1/bin/atricore
-    RUN chmod 700 /opt/atricore/josso-ce-2.4.1/bin/start
+    RUN chmod 700 /opt/atricore/josso-ce-2.4.2/bin/atricore
+    RUN chmod 700 /opt/atricore/josso-ce-2.4.2/bin/start
     
     ENV JAVA_OPTS -Djava.security.egd=file:/dev/urandom
     
-    CMD /opt/atricore/josso-ce-2.4.1/bin/atricore
+    CMD /opt/atricore/josso-ce-2.4.2/bin/atricore
     
 You may want to explore the Git project used to build docker images: https://github.com/atricore/atricore-josso-playground

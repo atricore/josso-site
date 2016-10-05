@@ -130,7 +130,8 @@ providers, and therefore may be linked to any SAML-compliant identity provider.
 Although the JOSSO server is running, its not configured yet. The playground box is bundled with an example 
 configuration - known as an identity appliance - for testing web single sign-on with JavaEE applications.
 
-In order to access the Atricore Console, open a web browser from the desktop environment of the box:
+In order to access the Atricore Console, open a web browser from the desktop environment of the box
+and hit the following url : http://demo_josso_1.josso.dev.docker:8081/atricore-console:
 
 ![Web Browser Launch](assets/images/web-browser-launch.png)
 
@@ -141,7 +142,7 @@ Access using 'admin' as the username and 'atricore' as the password.
 #### Import and launch the demo identity appliance
 
 Click on the 'Import' button and select the *josso-quick-start-appliance.zip* file located in the
-/home/vagrant/atricore-josso-playground/demo-josso-ce-2.4.1-javaee-tomcat folder.
+/home/vagrant/atricore-josso-playground/demo-josso-ce-2.4.2-javaee-tomcat folder.
 
 ![Import Identity Appliance](assets/images/atricore-console-2.png)
 
