@@ -53,8 +53,13 @@ Docker documentation.
  
 ### Prerequisites
 
-In order to install JOSSO using Docker, you will need to have installed Docker. Please follow the instructions for
+In order to run JOSSO with Docker, you will need to have installed Docker. Please follow the instructions for
 installing Docker from the Docker documentation.
+
+Then, as JOSSO CE relies on the Oracle's Java which is not distributed as a Docker image, you'll need to build the image
+yourself by running this command.
+
+    $ docker build https://raw.githubusercontent.com/atricore/atricore-josso-playground/master/oracle-java8/Dockerfile
 
 ### Install JOSSO
 
