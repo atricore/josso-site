@@ -94,7 +94,7 @@ Or stopping the container:
 You may well find that you want to customize your JOSSO installation, either by setting custom configuration options not
 exposed by the Docker image, or by installing additional extensions. A full guide to extending Docker images is
 out of the scope of this installation documentation, but you can use the functionality provided by docker build to extend
-the default image: http://docs.docker.com/reference/builder/.
+the default image: http://docs.docker.com/reference/builder/. 
 
 As an example you can build on the default Dockerfile for JOSSO CE 2.4.2:
 
