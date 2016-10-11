@@ -65,7 +65,7 @@ yourself by running this command.
 
 In the simplest case, installing JOSSO should be a matter of running one command.
 
-      $ docker run -d --name josso atricore/josso:josso-ce-2.4.2
+      $ docker run -d -t --name josso atricore/josso:josso-ce-2.4.2
       
 This will start a new JOSSO CE container in the background.
 
