@@ -73,6 +73,10 @@ Since Vagrant is not a virtualization software by itself, it relies on 3rd party
 For this tutorial I’ll assume you have installed Oracle’s VirtualBox. VirtualBox is a free multi-platform
 virtualization software which is supported by Vagrant out of the box.
 
+Before running the Vagrant box with the JOSSO Playground make sure to install the docker compose provisioner : 
+
+    vagrant plugin install vagrant-docker-compose
+
 ## Roll out the reference IAM ecosystem 
 
 ### Launch playground
