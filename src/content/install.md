@@ -28,8 +28,18 @@ Follow the instructions to enable your JOSSO Enterprise Edition installation.
 
 ### Install and Launch
 
-After downloading the self-extracting installer, run it and start JOSSO by running the "atricore" command located
-within the "bin" directory.
+After downloading the self-extracting installer, launch it.  
+
+For Unix :
+
+    $ java -jar josso-ce-2.4.3-unix.jar
+
+For Windows :
+
+    $ java -jar josso-ce-2.4.3-windows.jar
+
+Upon successfully completing the installation, start JOSSO Community Edition by running the "atricore" command located
+within the "bin" directory, relative to the chosen installation directory.
 
 Now you're ready to run the Atricore Console. In order to launch it, hit the following URL:
 http://jossoserver:8081/atricore-console . You should be able to access the server directly from your local system
