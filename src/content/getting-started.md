@@ -146,7 +146,7 @@ Access using 'admin' as the username and 'atricore' as the password.
 #### Import and launch the demo identity appliance
 
 Click on the 'Import' button and select the *josso-quick-start-appliance.zip* file located in the
-/home/vagrant/atricore-josso-playground/demo-josso-ce-2.4.2-javaee-tomcat folder.
+/home/vagrant/atricore-josso-playground/demo-josso-ce-2.4.3-javaee-tomcat folder.
 
 ![Import Identity Appliance](assets/images/atricore-console-2.png)
 
