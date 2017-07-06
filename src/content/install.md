@@ -38,9 +38,8 @@ For Windows :
 
     $ java -jar josso-ce-2.4.3-windows.jar
  
-   > For "headless" installation use the "-console" flag (e.g. java -jar <josso-install-jar> -console)
+    > For "headless" installation use the "-console" flag (e.g. java -jar <josso-install-jar> -console)
    
-
 Upon successfully completing the installation, start JOSSO Community Edition by running the "atricore" command located
 within the "bin" directory, relative to the chosen installation directory.
 
@@ -69,11 +68,6 @@ Docker documentation.
 In order to run JOSSO with Docker, you will need to have installed Docker. Please follow the instructions for
 installing Docker from the Docker documentation.
 
-Then, as JOSSO CE relies on the Oracle's Java which is not distributed as a Docker image, you'll need to build the image
-yourself by running this command.
-
-    $ docker build https://raw.githubusercontent.com/atricore/atricore-josso-playground/master/oracle-java8/Dockerfile
-
 ### Install JOSSO
 
 In the simplest case, installing JOSSO should be a matter of running one command.
@@ -82,7 +76,7 @@ In the simplest case, installing JOSSO should be a matter of running one command
       
 This will start a new JOSSO CE container in the background.
 
-Please bear in mind that the default JOSSO container is INAPPROPRIATE FOR PRODUCTION USE.
+    > Please bear in mind that the default JOSSO container is INAPPROPRIATE FOR PRODUCTION USE.
 
 The first time you run docker run commands, Docker will have to download the software images: this may be quite slow.
 Once you’ve downloaded the images, however, subsequent calls to docker run will be much faster.
