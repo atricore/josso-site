@@ -37,6 +37,9 @@ For Unix :
 For Windows :
 
     $ java -jar josso-ce-2.4.3-windows.jar
+ 
+   > For "headless" install run add the "-console" flag (e.g. java -jar <josso-install-jar> -console)
+   
 
 Upon successfully completing the installation, start JOSSO Community Edition by running the "atricore" command located
 within the "bin" directory, relative to the chosen installation directory.
@@ -109,8 +112,6 @@ the default image: http://docs.docker.com/reference/builder/.
 As an example you can build on the default Dockerfile for JOSSO CE 2.4.3:
 
     FROM openjdk:8
-    
-    MAINTAINER Gianluca Brigandi <gianluca@atricore.com>
     
     ADD josso-ce-2.4.3.options /tmp/
     
