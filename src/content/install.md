@@ -38,7 +38,7 @@ For Windows :
 
     $ java -jar josso-ce-2.4.3-windows.jar
  
-    > For "headless" installation use the "-console" flag (e.g. java -jar <josso-install-jar> -console)
+   > For "headless" installation use the "-console" flag (e.g. java -jar <josso-install-jar> -console)
    
 Upon successfully completing the installation, start JOSSO Community Edition by running the "atricore" command located
 within the "bin" directory, relative to the chosen installation directory.
@@ -76,7 +76,7 @@ In the simplest case, installing JOSSO should be a matter of running one command
       
 This will start a new JOSSO CE container in the background.
 
-    > Please bear in mind that the default JOSSO container is INAPPROPRIATE FOR PRODUCTION USE.
+   > Please bear in mind that the default JOSSO container is INAPPROPRIATE FOR PRODUCTION USE.
 
 The first time you run docker run commands, Docker will have to download the software images: this may be quite slow.
 Once you’ve downloaded the images, however, subsequent calls to docker run will be much faster.
