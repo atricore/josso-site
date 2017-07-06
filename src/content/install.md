@@ -38,7 +38,7 @@ For Windows :
 
     $ java -jar josso-ce-2.4.3-windows.jar
  
-   > For "headless" install run add the "-console" flag (e.g. java -jar <josso-install-jar> -console)
+   > For "headless" installation use the "-console" flag (e.g. java -jar <josso-install-jar> -console)
    
 
 Upon successfully completing the installation, start JOSSO Community Edition by running the "atricore" command located
